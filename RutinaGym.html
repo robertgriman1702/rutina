@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina Definitiva: Hipertrofia Integral (1.70m/60kg)</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --legs: #8e44ad;
+            --push: #e67e22;
+            --pull: #27ae60;
+            --arms: #c0392b;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--secondary);
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .day-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 5px solid;
+        }
+        .leg-day {
+            border-top-color: var(--legs);
+        }
+        .push-day {
+            border-top-color: var(--push);
+        }
+        .pull-day {
+            border-top-color: var(--pull);
+        }
+        .arms-day {
+            border-top-color: var(--arms);
+        }
+        .exercise {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+        .exercise:last-child {
+            border-bottom: none;
+        }
+        .exercise-name {
+            font-weight: 600;
+            color: var(--dark);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .exercise-details {
+            background-color: #f8fafc;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 0.92em;
+            border-left: 3px solid var(--secondary);
+        }
+        .series-reps {
+            background-color: var(--secondary);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .new-tag {
+            background-color: var(--accent);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .priority-tag {
+            background-color: #f39c12;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            margin-left: 10px;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border: 1px solid #dfe6e9;
+        }
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        .summary-table th, .summary-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .summary-table th {
+            background-color: var(--primary);
+            color: white;
+        }
+        .summary-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .notes {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        .key-points {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .key-point {
+            background: #e3f2fd;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+        }
+        .key-point i {
+            margin-right: 8px;
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RUTINA DEFINITIVA HIPERTROFIA</h1>
+        <div class="subtitle">
+            <strong>1.70m / 60kg</strong> • Énfasis en Brazos/Hombros + Pierna Extra • 5 días/semana
+        </div>
+
+        <div class="key-points">
+            <div class="key-point">
+                <i>📌</i> <strong>Hombros:</strong> 10 series/semana (+4)
+            </div>
+            <div class="key-point">
+                <i>📌</i> <strong>Bíceps/Tríceps:</strong> 9 series/semana (+3)
+            </div>
+            <div class="key-point">
+                <i>📌</i> <strong>Piernas:</strong> +2 ejercicios nuevos
+            </div>
+            <div class="key-point">
+                <i>📌</i> <strong>Duración:</strong> 8-12 semanas
+            </div>
+        </div>
+
+        <!-- DÍA 1: PIERNA (CUÁDRICEPS/GLÚTEOS) -->
+        <div class="day-card leg-day">
+            <h2>Día 1: Pierna (Cuádriceps/Glúteos)</h2>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Sentadillas con barra</span>
+                    <span class="series-reps">4 × 6-8</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Peso:</strong> 75-80% 1RM • <strong>RIR:</strong> 1-2 (series finales: 0-1)
+                    <div class="notes">Prioridad absoluta. Bajar en 3 segundos, explosivo al subir.</div>
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Prensa de piernas</span>
+                    <span class="series-reps">3 × 8-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Pies bajos (énfasis cuádriceps), rango completo.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Zancadas con barra <span class="new-tag">NUEVO</span></span>
+                    <span class="series-reps">3 × 8/pierna</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Beneficio:</strong> Mayor activación glúteos/core. <strong>Clave:</strong> Tronco erguido, paso largo.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Extensiones de cuádriceps</span>
+                    <span class="series-reps">3 × 10-12</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Pausa de 1s en contracción máxima, control excéntrico.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Elevaciones de talones</span>
+                    <span class="series-reps">3 × 12-15</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DÍA 2: EMPUJE (PECHO/HOMBROS/TRÍCEPS) -->
+        <div class="day-card push-day">
+            <h2>Día 2: Empuje (Pecho/Hombros/Tríceps)</h2>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Press banca con barra</span>
+                    <span class="series-reps">4 × 6-8</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Peso:</strong> 70% 1RM • <strong>Técnica:</strong> Omóplatos retraídos, barra al esternón.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Press inclinado mancuernas</span>
+                    <span class="series-reps">3 × 8-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Ángulo:</strong> 30° • <strong>Énfasis:</strong> Porción clavicular del pecho.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Press militar con barra <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">3 × 6-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Clave:</strong> No arquear lumbar. Empuje explosivo, bajada controlada.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Elevaciones laterales <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">4 × 10-12</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Codos ligeramente flexionados, elevar hasta altura hombros.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Fondos en paralelas <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">3 × 6-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Variante:</strong> Con lastre si completas >10 reps limpias.
+                </div>
+            </div>
+        </div>
+
+        <!-- DÍA 3: PIERNA (FEMORAL/GLÚTEOS) -->
+        <div class="day-card leg-day">
+            <h2>Día 3: Pierna (Femoral/Glúteos)</h2>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Peso muerto rumano</span>
+                    <span class="series-reps">4 × 6-8</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Peso:</strong> 65-70% 1RM • <strong>Clave:</strong> Barra pegada al cuerpo, cadera atrás.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Peso muerto sumo <span class="new-tag">NUEVO</span></span>
+                    <span class="series-reps">3 × 6-8</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Ventaja:</strong> Enfoca aductores y glúteos con menor estrés lumbar.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Curl femoral acostado</span>
+                    <span class="series-reps">3 × 10-12</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Pausa en contracción, estirar completamente.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Hip thrust con barra</span>
+                    <span class="series-reps">3 × 8-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Clave:</strong> Mentón pegado al pecho, empuje con talones.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Elevaciones de talones sentado</span>
+                    <span class="series-reps">3 × 12-15</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DÍA 4: TIRÓN (ESPALDA/BÍCEPS) -->
+        <div class="day-card pull-day">
+            <h2>Día 4: Tirón (Espalda/Bíceps)</h2>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Dominadas con lastre <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">4 × 6-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Opción:</strong> Banda de asistencia si no llegas a 6 reps limpias.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Remo con mancuerna</span>
+                    <span class="series-reps">3 × 8-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Hombros paralelos al suelo, tirar con codo.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Face pulls</span>
+                    <span class="series-reps">3 × 12-15</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Clave:</strong> Separar cuerda al final, rotación externa.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Curl de bíceps con barra <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">4 × 8-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Técnica:</strong> Agarre estrecho (énfasis cabeza larga), no balancear.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Curl martillo <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">3 × 10-12</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Énfasis:</strong> Braquial y antebrazos. Control excéntrico (3s bajada).
+                </div>
+            </div>
+        </div>
+
+        <!-- DÍA 5: MIXTO + BRAZOS EXTRA -->
+        <div class="day-card arms-day">
+            <h2>Día 5: Mixto + Brazos Extra</h2>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Press militar mancuernas</span>
+                    <span class="series-reps">3 × 6-10</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Variante:</strong> Palmas mirándose en punto más alto.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Pull-ups agarre neutro</span>
+                    <span class="series-reps">3 × 6-10</span>
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Extensión de tríceps en polea <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">3 × 10-12</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Clave:</strong> Codos pegados al cuerpo, extensión completa.
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Remo invertido con lastre</span>
+                    <span class="series-reps">3 × 6-10</span>
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-name">
+                    <span>Curl concentrado <span class="priority-tag">PRIORIDAD</span></span>
+                    <span class="series-reps">3 × 8-10/pierna</span>
+                </div>
+                <div class="exercise-details">
+                    <strong>Beneficio:</strong> Mayor conexión mente-músculo en bíceps.
+                </div>
+            </div>
+        </div>
+
+        <!-- RESUMEN DE VOLUMEN -->
+        <div class="highlight-box">
+            <h3 style="margin-top: 0; color: var(--primary);">📊 Resumen de Volumen Semanal por Grupo Muscular</h3>
+            <table class="summary-table">
+                <tr>
+                    <th>Grupo Muscular</th>
+                    <th>Series</th>
+                    <th>Rango Óptimo</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td><strong>Hombros</strong></td>
+                    <td>10</td>
+                    <td>8-12</td>
+                    <td style="color: #27ae60;">✅ Ideal</td>
+                </tr>
+                <tr>
+                    <td><strong>Bíceps</strong></td>
+                    <td>9</td>
+                    <td>8-12</td>
+                    <td style="color: #27ae60;">✅ Prioridad</td>
+                </tr>
+                <tr>
+                    <td><strong>Tríceps</strong></td>
+                    <td>9</td>
+                    <td>8-12</td>
+                    <td style="color: #27ae60;">✅ Prioridad</td>
+                </tr>
+                <tr>
+                    <td>Pecho</td>
+                    <td>11</td>
+                    <td>10-12</td>
+                    <td>⏹ Adecuado</td>
+                </tr>
+                <tr>
+                    <td>Espalda</td>
+                    <td>12</td>
+                    <td>12-16</td>
+                    <td>⏹ Adecuado</td>
+                </tr>
+                <tr>
+                    <td>Cuádriceps</td>
+                    <td>13</td>
+                    <td>10-14</td>
+                    <td style="color: #2980b9;">🔹 Alto</td>
+                </tr>
+                <tr>
+                    <td>Femoral/Glúteos</td>
+                    <td>12</td>
+                    <td>10-14</td>
+                    <td style="color: #2980b9;">🔹 Alto</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- INSTRUCCIONES FINALES -->
+        <div class="highlight-box">
+            <h3 style="margin-top: 0; color: var(--primary);">📌 Instrucciones Clave para Maximizar Resultados</h3>
+            <div class="exercise-details" style="margin-top: 15px;">
+                <strong>1. Progresión de Pesos:</strong>
+                <ul>
+                    <li>Aumenta 1-2kg/semana en ejercicios de brazos cuando completes todas las repeticiones con RIR ≤1.</li>
+                    <li>En piernas: +2.5-5kg cada 2 semanas en sentadilla/peso muerto.</li>
+                </ul>
+                
+                <strong>2. Nutrición (Para 60kg):</strong>
+                <ul>
+                    <li><strong>Calorías:</strong> 2500-2700 kcal/día (superávit de 300-500kcal)</li>
+                    <li><strong>Proteína:</strong> 120-140g/día (2-2.3g/kg)</li>
+                    <li><strong>Post-entreno:</strong> 40g carbohidratos + 20g proteína</li>
+                </ul>
+                
+                <strong>3. Descanso:</strong>
+                <ul>
+                    <li>Dormir 7-8h/noche</li>
+                    <li>72h entre entrenar el mismo grupo muscular</li>
+                </ul>
+                
+                <strong>4. Técnica:</strong>
+                <ul>
+                    <li>En ejercicios nuevos (zancadas, peso muerto sumo), graba tus series para corregir forma.</li>
+                    <li>Prioriza contracción muscular sobre peso en ejercicios de brazos.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
